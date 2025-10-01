@@ -125,3 +125,18 @@ def heap_create (h):
         heap_heapify(h, i)
         i -= 1
     return h
+
+# COLAS DE PRIORIDAD SOBRE MAX HEAP
+
+def pq_ini ():
+    lst = []
+    return heap_create(lst)
+
+
+
+def pq_insert(h, key):
+    return heap_insert (h,key)
+
+
+def pq_extract(h):
+    return heap_extract (h)
