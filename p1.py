@@ -6,7 +6,8 @@ def dataprep(n):
     return list(range(n))
 
 def time_measure(f, dataprep, Nlst, Nrep=1000, Nstat=100):
-    return 
+    ppp
+    return  
 
 def search_all(lst, v):
     l = list()
